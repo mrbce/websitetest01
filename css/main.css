@@ -113,5 +113,27 @@ section.hero .down-arrow {
 
 .more-info .title {
   font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.more-info .desc {
+  line-height: 1.5rem;
+}
+
+@media only screen and (min-width: 680px) {
+  body {
+    margin: 1.5em 5em;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .menu {
+    display: none;
+  }
+  nav {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 /*# sourceMappingURL=main.css.map */
