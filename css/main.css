@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  margin: 1.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+/*# sourceMappingURL=main.css.map */
