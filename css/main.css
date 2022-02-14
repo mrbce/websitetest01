@@ -35,6 +35,12 @@ nav {
   width: 50%;
   z-index: 2;
   text-transform: uppercase;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
 }
 
 nav ul {
@@ -52,6 +58,12 @@ nav ul a {
 
 nav ul a:hover {
   background: #ebebeb;
+}
+
+nav .close {
+  float: right;
+  margin: 2em;
+  width: 2.5em;
 }
 
 header {
@@ -90,5 +102,16 @@ section.hero .down-arrow {
   position: absolute;
   bottom: 2em;
   width: 1em;
+}
+
+.more-info img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 11em;
+}
+
+.more-info .title {
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
